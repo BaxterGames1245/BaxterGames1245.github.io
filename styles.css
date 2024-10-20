@@ -3,21 +3,21 @@
    src: url(font/Terminal.ttf);
 }
 body[theme=dark] #theme-text::before {
-  content:' Light mode';
+  content:' Green mode';
 }
 body #theme-text::before {
-  content:' Dark mode';
+  content:' Red mode';
 }
 #theme-icon {
   width: 16px;
   height: 16px;
 }
 body #theme-icon {
-  background: url('images/moon.png');
+  background: url('images/red.png');
   display: inline-block;
 }
 body[theme=dark] #theme-icon {
-  background: url('images/sun.png');
+  background: url('images/green.png');
   display: inline-block;
 }
 body {
