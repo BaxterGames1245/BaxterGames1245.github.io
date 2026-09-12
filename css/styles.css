@@ -24,6 +24,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 	min-height: 100vh;
+	
+	text-rendering: geometricPrecision;  /* Why doesn't this work??? Idk. I'm keeping it just in case. */
+	font-smooth: never;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 .cairo {
 	font-family: 'Cairo', monospace;
